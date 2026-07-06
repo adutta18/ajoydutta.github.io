@@ -72,3 +72,9 @@ footer {
   color: white;
   margin-top: 40px;
 }
+@media screen and (max-width: 768px) {
+  .hero-flex {
+    flex-direction: column;
+    text-align: center;
+  } 
+}
